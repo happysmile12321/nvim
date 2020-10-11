@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/home/zhen/.config/nvim/plugged/vimwiki/wikidocs'
+let g:netrw_dirhist_5='/home/zhen/.config/nvim/plugged/vimwiki'
+let g:netrw_dirhist_4='/home/zhen/.config/nvim/plugged'
+let g:netrw_dirhist_3='/home/zhen/.config/nvim'
+let g:netrw_dirhist_2='/home/zhen/.npm'
+let g:netrw_dirhist_1='/home/zhen/suckless/st/luke_st/KeyMap.md'
