@@ -87,13 +87,15 @@ func! CompileRunGcc()
     elseif &filetype == 'cpp'
         exec '!g++ %  -o %<'
         exec '!./%<'
+    elseif &filetype == 'html'
+			exec 'Bracey'
     elseif &filetype == 'java'
 		exec '!javac %'
 		exec '!java %<'
     elseif &filetype == 'javascript'
         exec '!node %'
     elseif &filetype == 'markdown'
-	    exec "MarkdownPreview"
+	    exec 'MarkdownPreview'
     elseif &filetype == 'python'
 	"exec "!time python %"
 		set splitbelow
@@ -238,7 +240,7 @@ let g:vmt_fence_text = 'TOC'
 let g:vmt_fence_closing_text = '/TOC'
 "~~~Plug 'ferrine/md-img-paste.vim' (paste md image)
 autocmd FileType markdown nmap <buffer><silent> <leader>p :call mdip#MarkdownClipboardImage()<CR>
-let g:mdip_imgdir = '.'
+let g:mdip_imgdir = './assets'
 "~~~bullets.vim(when type - or * in markdown,it can auto type Tab)
 let g:bullets_enabled_file_types = [
     \ 'markdown',
