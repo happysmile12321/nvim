@@ -1,0 +1,42 @@
+{
+  "rust-analyzer.enable": true,
+  "rust-analyzer.files.watcher": true,
+  "rust-analyzer.cargo.autoreload": false,
+  "rust-analyzer.hover.links.enable": true,
+  "json.format.enable": true,
+  "flutter.outlineWidth": 30,
+  "flutter.outlineIconPadding": 0,
+  "flutter.openDevLogSplitCommand": "botright 12split",
+  "flutter.lsp.initialization.onlyAnalyzeProjectsWithOpenFiles": false,
+  "flutter.trace.server": "off",
+  "dart.enableSdkFormatter": true,
+  "coc.preferences.formatOnSaveFiletypes": [
+    "json",
+    "html",
+    "css",
+    "rust",
+    "go",
+    "vim",
+    "sh",
+    "python",
+    "lua",
+    "dart"
+  ],
+  "snippets.ultisnips.pythonPrompt": false,
+  "snippets.extends": {
+    "cpp": [
+      "c"
+    ],
+    "javascriptreact": [
+      "javascript"
+    ],
+    "typescript": [
+      "javascript"
+    ],
+    "dart": [
+      "flutter",
+      "dart"
+    ]
+  },
+  "snippets.priority": 110
+}

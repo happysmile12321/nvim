@@ -1,0 +1,5 @@
+local builtin = require('telescope.builtin')
+vim.keymap.set('n', 'sc', builtin.live_grep, {})
+vim.keymap.set('n', 'sgb', builtin.git_branches, {})
+vim.keymap.set('n', 'sgc', builtin.git_commits, {})
+vim.keymap.set('n', 'sgd', builtin.git_bcommits, {})
